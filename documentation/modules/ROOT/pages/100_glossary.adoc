@@ -55,4 +55,7 @@ OpenShift and Kubernetes have a lot of technical concepts; this page contains de
 |*Instantiate*
 |Instantiate means 'to create an instance of' and refers to the creation of individual objects within OpenShift
 
+|*ARO*
+|Abbreviation for Azure Red Hat OpenShift, the fully managed Cloud OpenShift service on Azure
+
 |===
