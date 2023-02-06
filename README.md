@@ -15,7 +15,6 @@ This project assumes a pre-deployed cluster of OpenShift on Azure.
 7. Injecting Secure Configuration into Applications (using Secrets)
 8. Networking of Applications
 9. CI using Pipelines
-10. CD using GitOps (future)
 
 # Installing the App
 Create an httpd S2I from the Builder Image in OpenShift
