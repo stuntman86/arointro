@@ -4,6 +4,9 @@
 
 image::002-image001.png[Example Topology Image]
 
+
+
+
 == *Deploying an Application to ARO*
 
 ====
@@ -33,8 +36,8 @@ As the owner/user of a Project you have 'Admin' rights to it, meaning you can cr
 *Please Read* - if you are using a *shared* project you may encounter issues with naming; this is because Objects within a *Project* must be _uniquely_ named. If someone
 else is doing this course in the same Project they may have created objects with the names stated. +
 
-*If you get an error when trying to create _anything_ as part of this module, add "__(your initials)" to the end of the Name attribute for the object
-you are creating*
+So to avoid this, for every resource you create (project,app,label etc), append your student number at the end. For example, if the documentation mentions "create a project named workshop" , student1 should create "workshop1" , student2 "workshop2" etc
+
 ====
 
 === *Creating the Application*

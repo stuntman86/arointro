@@ -72,23 +72,15 @@ In essence a Pod is an instance of a deployable Application, where Application i
 
 The concept of a *Pod* was also intended to encourage Cloud Native behaviour; the Pods are transient, meaning they can be lost and automatically recreated, using the state/reconciliation described earlier.
 
-=== So, what is OpenShift?
+=== So, what is Azure Red Hat OpenShift?
 
-OpenShift is badly named. It *is* Kubernetes, with enterprise additions to make it secure, easy to access and use from an Administration and a Development perspective.
+ARO is a fully managed OpenShift Cloud Service  that is built with Kubernetes in its core, complemented by a robust set of tools that make it a Turnkey Application Platform that can be easily be spinned up in a matter of minutes and allow developers to get on with coding , app deployment and maintenance.
 
-Going back to what we were talking about around the Object lexicon - the control plane actually works by having a number of while-true loops that are waiting for events. Each of the while-true loops, called a *Controller*, owns
-a distinct Object type, and receives and processes the events relating to that object (create, edit, delete).
-
-OpenShift uses a technology called the *Operator Framework*. In English an Operator actually provides an application that acts as an additional *Controller* (the while-true loops that process object-specific requests) for an Object that is external to the *Kubernetes* lexicon. Basically you can create and manipulate new Object types in *OpenShift*
-by using an Operator. In fact all of OpenShift *is* Operators adding additional functionality on top of *Kubernetes*. This is a brilliant concept as
-it allows you to extend the Object model yourself without changing the base *Kubernetes*.
-
-=== OpenShift from a Developer perspective
+=== ARO from a Developer perspective
 
 Away from the mechanics of *Kubernetes* the OpenShift system is a joy for developers. If you come from a dev background you'll have had the usual issues; hard to get a dev environment, hard to work in a consistent way with the team, hard to work with build systems and the like.
 
-*OpenShift* provides a far more efficient way to develop. In the space of a couple of clicks you can have a running Application. The system provides consistent build and deployment frameworks out of the box, but behaves like a big box of useful
-technical Lego; if you want to take a simple path through development, the tools are all there to help (and this course explains a number of them). It is designed to allow us developers
+*ARO* provides a far more efficient way to develop. In the space of a couple of clicks you can have a running Application. The system provides consistent build and deployment frameworks out of the box, but behaves like a big box of useful technical Lego; if you want to take a simple path through development, the tools are all there to help (and this course explains a number of them). It is designed to allow us developers
 to spend more time developing and less time doing nugatory tasks that add nothing to our end solutions.
 
 
