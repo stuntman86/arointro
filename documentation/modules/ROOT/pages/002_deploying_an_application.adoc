@@ -4,7 +4,7 @@
 
 image::002-image001.png[Example Topology Image]
 
-== *Deploying an Application to OpenShift*
+== *Deploying an Application to ARO*
 
 ====
 *What will you learn?*

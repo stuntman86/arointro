@@ -1,18 +1,36 @@
-= High Level Introduction to OpenShift
+= High Level Introduction to Azure Red Hat OpenShift
 
 :!sectids:
 
-image::001-image001.png[OpenShift]
 
-== *A High Level Introduction to OpenShift for Developers*
 
-====
+image::arolanding.png[ARO]
+
+== *A High Level Introduction to ARO for Developers*
+
+
+
+=== Where will this be workshop based on - Azure Red Hat OpenShift
+
+Azure Red Hat OpenShift is an Application development Turnkey Platform that is co-engineered by Red Hat and Microsoft and is running on Azure Cloud. We will be referring to Azure Red Hat OpenShift as ARO as we continue.
+
+The amazing fact with ARO is that you can have a fully blown platform ready for development in just 45 minutes with a few clicks of a button. Of course for the purposes of this workshop (and due to time limitations) we have deployed already an ARO cluster where you will be working on. However, after this workshop you can ask us and we can show you how easy it is to deploy it. Below we see a reference architecture diagram of ARO and how it looks on Azure Portal. 
+
+*ARO Networking Diagram*
+
+image::aronetwork.png[ARON] 
+
+*Azure portal with a ready deployed cluster*
+
+image::aroazure.png[AROA]
+
 *What will you learn?*
 
-This Module will give you an overview of what OpenShift actually is, and how it works.
+This Module will give you an overview of what Azure Red Hat OpenShift actually is, and how it works.
+
 
 This will involve explaining the Object model and Kubernetes. The Module is a non-interactive one and can be skipped if the Reader understands the basic concepts of Objects, Reconciliation, Eventually Consistent State and Containers/Pods.
-====
+
 
 === The beauty of Kubernetes
 

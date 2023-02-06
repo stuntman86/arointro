@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>High Level Introduction to OpenShift :: Developer Introduction to OpenShift</title>
+    <title>High Level Introduction to Azure Red Hat OpenShift :: Developer Introduction to OpenShift</title>
     <meta name="generator" content="Antora 2.3.4">
     <link rel="stylesheet" href="../../_/css/site.css">
 <link rel="icon" href="../../_/img/favicon.ico" type="image/x-icon">
@@ -150,13 +150,13 @@
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="000_module_overview.html"><strong>000</strong> - Module Overviews</a>
+    <a class="nav-link" href="000_module_overview.html"><strong>000</strong> - Module Overview</a>
   </li>
   <li class="nav-item is-current-page" data-depth="1">
-    <a class="nav-link" href="001_introduction_to_openshift.html"><strong>001</strong> - A High Level Introduction to OpenShift</a>
+    <a class="nav-link" href="001_introduction_to_openshift.html"><strong>001</strong> - A High Level Introduction to Azure Red Hat Openshift (ARO)</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="002_deploying_an_application.html"><strong>002</strong> - Deploying an Application to OpenShift</a>
+    <a class="nav-link" href="002_deploying_an_application.html"><strong>002</strong> - Deploying an Application to ARO</a>
   </li>
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="003_s2i.html"><strong>003</strong> - Deploying an Application from Source Code</a>
@@ -216,37 +216,58 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Introduction to OpenShift Course</a></li>
-    <li><a href="001_introduction_to_openshift.html"><strong>001</strong> - A High Level Introduction to OpenShift</a></li>
+    <li><a href="001_introduction_to_openshift.html"><strong>001</strong> - A High Level Introduction to Azure Red Hat Openshift (ARO)</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="file:///Users/uther/git/ocpintro/documentation/modules/ROOT/pages/001_introduction_to_openshift.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="file:///home/george/aroworkshopfinal/ocpintro/documentation/modules/ROOT/pages/001_introduction_to_openshift.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">High Level Introduction to OpenShift</h1>
+<h1 class="page">High Level Introduction to Azure Red Hat OpenShift</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="_images/001-image001.png" alt="OpenShift">
+<img src="_images/arolanding.png" alt="ARO">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2><strong>A High Level Introduction to OpenShift for Developers</strong></h2>
+<h2><strong>A High Level Introduction to ARO for Developers</strong></h2>
 <div class="sectionbody">
-<div class="exampleblock">
+<div class="sect2">
+<h3>Where will this be workshop based on - Azure Red Hat OpenShift</h3>
+<div class="paragraph">
+<p>Azure Red Hat OpenShift is an Application development Turnkey Platform that is co-engineered by Red Hat and Microsoft and is running on Azure Cloud. We will be referring to Azure Red Hat OpenShift as ARO as we continue.</p>
+</div>
+<div class="paragraph">
+<p>The amazing fact with ARO is that you can have a fully blown platform ready for development in just 45 minutes with a few clicks of a button. Of course for the purposes of this workshop (and due to time limitations) we have deployed already an ARO cluster where you will be working on. However, after this workshop you can ask us and we can show you how easy it is to deploy it. Below we see a reference architecture diagram of ARO and how it looks on Azure Portal.</p>
+</div>
+<div class="paragraph">
+<p><strong>ARO Networking Diagram</strong></p>
+</div>
+<div class="imageblock">
 <div class="content">
+<img src="_images/aronetwork.png" alt="ARON">
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Azure portal with a ready deployed cluster</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/aroazure.png" alt="AROA">
+</div>
+</div>
 <div class="paragraph">
 <p><strong>What will you learn?</strong></p>
 </div>
 <div class="paragraph">
-<p>This Module will give you an overview of what OpenShift actually is, and how it works.</p>
+<p>This Module will give you an overview of what Azure Red Hat OpenShift actually is, and how it works.</p>
 </div>
 <div class="paragraph">
 <p>This will involve explaining the Object model and Kubernetes. The Module is a non-interactive one and can be skipped if the Reader understands the basic concepts of Objects, Reconciliation, Eventually Consistent State and Containers/Pods.</p>
-</div>
 </div>
 </div>
 <div class="sect2">
