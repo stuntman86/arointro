@@ -1,12 +1,12 @@
-# OCP Introduction course for developers
+# ARO Introduction course for developers
 
-Deployable self-paced tutorial material for onboarding developers to OpenShift
+Deployable self-paced tutorial material for onboarding developers to deploying and experimenting with apps on Azure Red Hat OpenShift 
 
 # Precis
-This project provides a build and deployable self-paced web-based course for getting people up to speed with the concepts of developing and deploying on OpenShift.  
+This project assumes a pre-deployed cluster of OpenShift on Azure. 
 
 # Modules
-1. High Level introduction to OpenShift Concepts (non-interactive)
+1. High Level introduction to ARO and OpenShift Concepts (non-interactive)
 2. Deploying your first Application
 3. Deploying an Application from Source Code
 4. Configuring an Application (replicas and environment variable)
