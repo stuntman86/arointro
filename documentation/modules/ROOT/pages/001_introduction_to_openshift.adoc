@@ -6,7 +6,7 @@
 
 image::arolanding.png[ARO]
 
-== *A High Level Introduction to ARO for Developers*
+== *A High Level Introduction to Azure Red Hat OpenShift for Developers*
 
 
 
