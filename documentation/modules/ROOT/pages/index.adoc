@@ -18,6 +18,10 @@ The modules are self-paced. Within the description of the Modules there will be 
 
 Also please feel free to experiment further on the apps deployed in this workshop apart from the steps of this workshop.
 
+Lastly its worth mentioning that the content of this *workshop* are running as a containerized app in the same exact *ARO cluster* as you will be working on ! It took just one minute to build from the github repo !
+
+
+
 [TIP]
 ====
 Tips contain useful additional information around the exercises +
