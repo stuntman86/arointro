@@ -2,7 +2,7 @@
 
 :!sectids:
 
-image::000-image001.png[Screenshot,width=500px]
+image::rhms.png[rhms]
 
 == *A Developer's Introduction to Azure Red Hat OpenShift*
 
