@@ -23,6 +23,10 @@ After completing the Module you will understand the concepts of an Application a
 
 In order to undertake the Module you need to be logged onto the OpenShift cluster and have access to a Project. If you do not have rights to create a project, ask the Cluster administrators to provide one for you.
 
+In order to get credentials for the *ARO* cluster you will be working on, please click here : https://cookie-credential-cannon-credcannon.apps.zl3niav3.eastus.aroapp.io
+
+Then you can access the cluster with the credentials you got here : https://console-openshift-console.apps.zl3niav3.eastus.aroapp.io/
+
 *Ensure the two textboxes at the top of this HTML Guide to the Module contain the Cluster address and the Project you will be using.* 
 
 [NOTE]
